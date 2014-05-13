@@ -57,12 +57,12 @@ NS_INLINE const char *oc_gumbo_get_attribute(GumboNode *node, const char *name) 
     return NULL;
 }
 
-NS_INLINE int oc_gumbo_get_attribute_count(GumboNode *node) {
-    if (node->type == GUMBO_NODE_ELEMENT) {
-        return node->v.element.attributes.length;
-    }
-    return 0;
-}
+//NS_INLINE int oc_gumbo_get_attribute_count(GumboNode *node) {
+//    if (node->type == GUMBO_NODE_ELEMENT) {
+//        return node->v.element.attributes.length;
+//    }
+//    return 0;
+//}
 
 NS_INLINE GumboNode *oc_gumbo_get_child_at_index(GumboNode *node, int index) {
     return oc_gumbo_get_children(node).data[index];

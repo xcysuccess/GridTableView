@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BB0CE1F19224EA5000ABA5C /* bootstrap.css in Resources */ = {isa = PBXBuildFile; fileRef = 4BB0CE1E19224EA5000ABA5C /* bootstrap.css */; };
 		4BF9237C191E2C3A00333FE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF9237B191E2C3A00333FE8 /* Foundation.framework */; };
 		4BF9237E191E2C3A00333FE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF9237D191E2C3A00333FE8 /* CoreGraphics.framework */; };
 		4BF92380191E2C3A00333FE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF9237F191E2C3A00333FE8 /* UIKit.framework */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BB0CE1E19224EA5000ABA5C /* bootstrap.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.css; sourceTree = "<group>"; };
 		4BF92378191E2C3A00333FE8 /* GridTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF9237B191E2C3A00333FE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BF9237D191E2C3A00333FE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -288,6 +290,7 @@
 			children = (
 				4BF9241B191E438C00333FE8 /* index.html */,
 				4BF9241A191E438C00333FE8 /* grid.css */,
+				4BB0CE1E19224EA5000ABA5C /* bootstrap.css */,
 			);
 			path = grid;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				4BF9241C191E438C00333FE8 /* grid.css in Resources */,
 				4BF92397191E2C3A00333FE8 /* Images.xcassets in Resources */,
 				4BF9241D191E438C00333FE8 /* index.html in Resources */,
+				4BB0CE1F19224EA5000ABA5C /* bootstrap.css in Resources */,
 				4BF9238F191E2C3A00333FE8 /* Main_iPhone.storyboard in Resources */,
 				4BF92386191E2C3A00333FE8 /* InfoPlist.strings in Resources */,
 			);
@@ -624,6 +628,7 @@
 				4BF923AF191E2C3A00333FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BF923B0191E2C3A00333FE8 /* Build configuration list for PBXNativeTarget "GridTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +637,7 @@
 				4BF923B2191E2C3A00333FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

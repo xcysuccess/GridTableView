@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DynamicViewController : NSObject
-
+@interface DynamicViewController : UIViewController
+@property (nonatomic, strong) UIWebView *webView;
 @end

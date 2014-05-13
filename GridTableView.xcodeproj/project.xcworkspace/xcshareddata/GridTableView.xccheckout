@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C317217F-1BC9-40B7-9372-B09579AC77A9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GridTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>635271FF-18BF-43DD-BBAA-4AFB7183F433</key>
+		<string>https://github.com/xcysucess/GridTableView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GridTableView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>635271FF-18BF-43DD-BBAA-4AFB7183F433</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xcysucess/GridTableView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>635271FF-18BF-43DD-BBAA-4AFB7183F433</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>635271FF-18BF-43DD-BBAA-4AFB7183F433</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GridTableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

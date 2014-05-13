@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DynamicViewController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) UIWebView *webView;
@@ -21,6 +22,7 @@
     
     [self initWebView];
     [self loadWebViewHtml];
+    [self loadDynamicView];
 }
 
 - (void) initWebView
@@ -34,12 +36,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 -(void) loadWebViewHtml
 {
     NSString *htmlPath = [[NSBundle mainBundle]pathForResource:@"index" ofType:@"html"];
     NSURL *htmlUrl = [NSURL fileURLWithPath:htmlPath];
     [self.webView loadRequest:[NSURLRequest requestWithURL:htmlUrl]];
 }
+-(void) loadDynamicView
+{
+    DynamicViewController *dynamicView = nil;
+    dynamicView = [[DynamicViewController alloc] init];
+}
+
 @end
